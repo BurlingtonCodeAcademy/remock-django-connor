@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container.header {
+  line-height: 2em;
+  border-bottom: double skyblue;
+  line-height: 30px;
+  text-align: center;
+  padding-bottom: 150px;
+  
+}
+
+h1 {
+  font-size: 72px;
+  font-family: 'Indie Flower', cursive;
+}
+
+h2 {
+
+}
+

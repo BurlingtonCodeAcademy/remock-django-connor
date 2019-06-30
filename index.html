@@ -19,6 +19,7 @@
         <h1>HOME PAGE</h1>
         <h3>The Page for the Home</h3>
       </div>
+      <div class="SpecialLine"></div>
     </section>
     <section id="features">
       <h2>TAKE A LOOK AT THIS AMAZING <b>HOME PAGE</b>!</h2>
@@ -39,17 +40,18 @@
       <button class="button">Tell Me More</button>
     </section>
     <section id="main">
-      <blockquote class="content-1">
-        The robbed that smiles steals something from the thief <br />
-        <em>-Shakespeare</em>
+      <div class="content-1">
+      <blockquote >
+        From Russia with love
       </blockquote>
+    </div>
       <div class="content-2">
         <h2>
           I don't want to say it's the aliens but it's the aliens... <br />
           But it's the Aliens
         </h2>
-        <img src="media/bear masterpiece.jpg" />
-        <h3>Totally</h3>
+        <img class="content-image" src="media/bear masterpiece.jpg" />
+        <h3>Totally...</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio,
           voluptas quasi. Rem ullam repellat totam neque quos veritatis, eius
@@ -60,7 +62,7 @@
       </div>
       <div class="content-3">
         <h2>Awesome Demo Photo</h2>
-        <img src="media/russian-putin-bear-tastic.jpg" />
+        <img class="content-image" src="media/russian-putin-bear-tastic.jpg" />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id quam
           aliquid earum voluptatibus ullam nulla repellat harum, cum fugiat
@@ -136,16 +138,36 @@
         </div>
       </div>
       <div class="footer">
-        <h2>Questions or Comments? <b>Get in Touch:</b></h2>
+      <div class= "wholeForm">
+        <h2 id= formTitle>Questions or Comments? <b>Get in Touch:</b></h2>
+        <div class= "formInfo">
         <form method="post">
-          Name: <input  type="text" name="name" value="" />
-          Email: <input type="email" name="email" />
+          <input  type="text" name="name" placeholder="Name" />
+          <input type="email" name="email" placeholder="Email" value/>
           <br />
-          Message: <textarea class= "messageBox" type= "text area" name="message">Whyyy </textarea>
+          <textarea class="messageBox" type= "text area" name="message" placeholder="Message"></textarea>
           <br />
-          <input type="submit" />
+          <input class= "button" type="submit" />
         </form>
+        <div class="formText">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore perferendis quia iure! Possimus culpa blanditiis consectetur, nihil unde eius odit laborum? Pariatur tempore odio nobis voluptatum dolorem est minima corrupti.</p>
+          <div class= "contact">
+            <div id="contactInfo1">
+            <p>Burlington</p>
+            <p>802 444 444</p>
+            <p>email@email.com</p>
+          </div>
+          <div id="contactInfo1">
+              <p>@untiled</p>
+              <p>instagram.com</p>
+              <p>dribble.com</p>
+              <p>facebook.com</p>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
     </section>
   </body>
 </html>

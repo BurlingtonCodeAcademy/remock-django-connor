@@ -1,9 +1,11 @@
 h1 {
   font-size: 72px;
-  font-family: 'Abril Fatface', cursive;
-  text-shadow: 2px 2px;
-  color: #ed786a:
+  font-family: 'Abril Fatface';
+  text-shadow: 10px 5px 3px rgb(192, 182, 182);
+  color: #ed786a;
+  font-weight: 500;
 }
+
 h2{
   font-weight: normal;
 }
@@ -106,4 +108,8 @@ b {
   flex-direction: column;
   align-items: center;
 
+}
+.messageBox{
+  height : 200px;
+  width: 300px;
 }

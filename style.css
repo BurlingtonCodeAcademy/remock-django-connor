@@ -63,6 +63,12 @@ blockquote{
   color: whitesmoke;
   background-color: #ed786a;
   border-radius: 4px;
+  transition: background-color .5s;
+}
+
+
+.button:hover {
+  background-color: gold;
 }
 
 #main{
@@ -90,19 +96,21 @@ blockquote{
 
 .content-2{
   grid-area: content-2;
-  border-bottom: double skyblue;
-  grid-column: 2/4
+  border-bottom: double #888888;
+  grid-column: 2/4;
+  padding-bottom: 35px;
+
 }
 
 .content-3 {
   grid-area: content-3;
-  grid-column: 2/4
+  grid-column: 2/4;
 }
 
 .sidebar{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   grid-area: sidebar;
   grid-row: 2/5;
   height: 100%;
@@ -164,4 +172,20 @@ ul{
 
 .content-image {
   width: 500px;
+}
+
+.sidebar-img{
+  width: 150px;
+  height: auto;
+  float: left;
+  margin: 10px 10px;
+}
+
+.blog-button{
+  background-color: #888888;
+  color: white;
+}
+
+.blog-post {
+  border-bottom: 1px solid black
 }
